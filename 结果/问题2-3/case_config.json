@@ -1,0 +1,87 @@
+{
+  "case_id": "q23_linear_epsfix_20260912",
+  "protocol": "q23_janwarm_v4",
+  "project_root": "C:\\Users\\John\\Desktop\\26题\\MILP+两阶段+MPC",
+  "phase": "main",
+  "forecast_cache": "C:\\Users\\John\\Desktop\\26题\\MILP+两阶段+MPC\\04_结果与检验\\q23_linear_epsfix_20260912\\forecast\\预测缓存.npz",
+  "input_hashes": {
+    "C:\\Users\\John\\Desktop\\26题\\MILP+两阶段+MPC\\00_题目与原始数据\\C题\\附件\\附件1.xlsx": "66b87134f5ecccd68184d3539bb1293ef039f9e0fdd955a589b9bfa7f227c377",
+    "C:\\Users\\John\\Desktop\\26题\\MILP+两阶段+MPC\\00_题目与原始数据\\C题\\附件\\附件2.xlsx": "2e95fd446bfafa0d8c59577b5c2e2ea8b3f1def20dde54a3062556f4da9b4c72",
+    "C:\\Users\\John\\Desktop\\26题\\MILP+两阶段+MPC\\00_题目与原始数据\\C题\\附件\\附件3.xlsx": "8a61b06c52bd0d639a1cc37c61a7d9f5b75edcbca718f64c1bd3498ec9f9d843",
+    "C:\\Users\\John\\Desktop\\26题\\MILP+两阶段+MPC\\00_题目与原始数据\\C题\\附件\\附件4.xlsx": "20e9c93aeab5e8e21ae4dd15587f9e190f7408692504c1319598461cd654fe71"
+  },
+  "code_hashes": {
+    "C:\\Users\\John\\Desktop\\26题\\MILP+两阶段+MPC\\03_代码\\p10_core.py": "b3242ad925c82d63dbb46071e7135ce2a7c2675d6a36a4f5f63319b573b70148",
+    "C:\\Users\\John\\Desktop\\26题\\MILP+两阶段+MPC\\03_代码\\p15_forecasts.py": "c2351afbe72aaabb2d5870b6b4ace45d20157d80539913236fd3ac67e4a5996b",
+    "C:\\Users\\John\\Desktop\\26题\\MILP+两阶段+MPC\\03_代码\\p95_q23_v4.py": "5df0483cc5b3a0817d4f0e3332a242082c0c6989a57c2124ad98935be2b656ad"
+  },
+  "parameters": {
+    "S": 10,
+    "seed": 2025,
+    "eps_soc": 0.001,
+    "tp": 1e-06,
+    "v_term": 0.481548,
+    "lam": 0.3,
+    "method": "linear"
+  },
+  "forecast_meta": {
+    "protocol": "q23_janwarm_v4",
+    "training_start": 14,
+    "input_hashes": {
+      "C:\\Users\\John\\Desktop\\26题\\MILP+两阶段+MPC\\00_题目与原始数据\\C题\\附件\\附件1.xlsx": "66b87134f5ecccd68184d3539bb1293ef039f9e0fdd955a589b9bfa7f227c377",
+      "C:\\Users\\John\\Desktop\\26题\\MILP+两阶段+MPC\\00_题目与原始数据\\C题\\附件\\附件2.xlsx": "2e95fd446bfafa0d8c59577b5c2e2ea8b3f1def20dde54a3062556f4da9b4c72",
+      "C:\\Users\\John\\Desktop\\26题\\MILP+两阶段+MPC\\00_题目与原始数据\\C题\\附件\\附件3.xlsx": "8a61b06c52bd0d639a1cc37c61a7d9f5b75edcbca718f64c1bd3498ec9f9d843",
+      "C:\\Users\\John\\Desktop\\26题\\MILP+两阶段+MPC\\00_题目与原始数据\\C题\\附件\\附件4.xlsx": "20e9c93aeab5e8e21ae4dd15587f9e190f7408692504c1319598461cd654fe71"
+    },
+    "code_hashes": {
+      "C:\\Users\\John\\Desktop\\26题\\MILP+两阶段+MPC\\03_代码\\p10_core.py": "b3242ad925c82d63dbb46071e7135ce2a7c2675d6a36a4f5f63319b573b70148",
+      "C:\\Users\\John\\Desktop\\26题\\MILP+两阶段+MPC\\03_代码\\p15_forecasts.py": "c2351afbe72aaabb2d5870b6b4ace45d20157d80539913236fd3ac67e4a5996b",
+      "C:\\Users\\John\\Desktop\\26题\\MILP+两阶段+MPC\\03_代码\\p95_q23_v4.py": "5df0483cc5b3a0817d4f0e3332a242082c0c6989a57c2124ad98935be2b656ad"
+    },
+    "early_policy": "lag1_for_di_lt_14",
+    "seed": 2025,
+    "metrics": {
+      "L_lgb_eval": {
+        "MAE": 135.74821960827268,
+        "RMSE": 188.404516669651,
+        "bias": 7.586281617029019
+      },
+      "L_lag1_eval": {
+        "MAE": 650.02006751497,
+        "RMSE": 1128.3912380310528,
+        "bias": -5.461799538423153
+      },
+      "L_m7_eval": {
+        "MAE": 781.2110842648038,
+        "RMSE": 955.9245199188664,
+        "bias": -1.3563980230016208
+      },
+      "L_online_eval": {
+        "MAE": 135.74821960827268,
+        "RMSE": 188.404516669651,
+        "bias": 7.586281617029019
+      },
+      "G_lgb_eval": {
+        "MAE": 178.89858953651404,
+        "RMSE": 356.3959935215404,
+        "bias": -3.434432462672125
+      },
+      "G_lag1_eval": {
+        "MAE": 185.34649152736193,
+        "RMSE": 375.17487813659034,
+        "bias": 0.7610173132900864
+      },
+      "G_m7_eval": {
+        "MAE": 153.399706724943,
+        "RMSE": 303.85773925555964,
+        "bias": 2.7692022125392066
+      },
+      "G_online_eval": {
+        "MAE": 153.399706724943,
+        "RMSE": 303.85773925555964,
+        "bias": 2.7692022125392066
+      }
+    },
+    "created_at": "2026-09-12T18:48:34+0800"
+  }
+}
