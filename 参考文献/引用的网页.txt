@@ -1,0 +1,40 @@
+https://shupeidian.bjx.com.cn/html/20151202/687267-1.shtml   下面是如何写引用格式
+
+**中文网页译介/导读**，不是学术论文条目：
+
+- 页内标注的发布信息（取自同日同文的镜像页 `chinasmartgrid.com.cn/news/20151202/611210-1.shtml`）：**来源：电力系统自动化；作者：李正烁、郭庆来、孙宏斌 等；2015-12-02 15:36:46**。
+- 文中把"充电与放电不能在同一时刻发生"的分布式储能定义为**广义分布式储能设备（storage-like devices, SLD）**，与英文原文完全对应。
+- 其对应的学术原文为：**Li Zhengshuo, Guo Qinglai, Sun Hongbin, Wang Jianhui. Storage-like devices in load leveling: Complementarity constraints and a new and exact relaxation method[J]. Applied Energy, 2015, 151: 13-22. DOI:10.1016/j.apenergy.2015.04.061**（作者/卷/页码经 OpenAlex `api.openalex.org/works/doi:10.1016/j.apenergy.2015.04.061` 核对）。
+
+## 八、两种写法（按引用目的二选一）
+
+**写法 A（推荐）：引学术原文**
+
+```
+[4] LI Z S, GUO Q L, SUN H B, et al. Storage-like devices in load leveling: complementarity
+    constraints and a new and exact relaxation method[J]. Applied Energy, 2015, 151: 13-22.
+    DOI:10.1016/j.apenergy.2015.04.061.
+```
+
+```bibtex
+@article{li2015storage,
+  author  = {Li, Zhengshuo and Guo, Qinglai and Sun, Hongbin and Wang, Jianhui},
+  title   = {Storage-like devices in load leveling: Complementarity constraints and a new and
+             exact relaxation method},
+  journal = {Applied Energy},
+  volume  = {151},
+  pages   = {13--22},
+  year    = {2015},
+  doi     = {10.1016/j.apenergy.2015.04.061}
+}
+```
+
+**写法 B：确实要引该网页**
+
+```
+[5] 李正烁, 郭庆来, 孙宏斌, 等. 含大规模分布式储能设备的削峰填谷问题：互补约束及其精确
+    松弛条件[EB/OL]. 北极星输配电网, (2015-12-02)[2026-09-13].
+    https://shupeidian.bjx.com.cn/html/20151202/687267-1.shtml.
+```
+
+要点：中文著者按"姓名 + 逗号"著录、超 3 人加 `, 等`；网页必须带 `(发布日期)[引用日期] + URL`；若页面未标作者，责任者可改写为"北极星输配电网"。
