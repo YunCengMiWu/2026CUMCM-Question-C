@@ -1,0 +1,123 @@
+{
+  "阶段": "F1 正式模板落盘",
+  "生成时间": "2026-09-11 16:11:51",
+  "来源轨": {
+    "result1": {
+      "file": "result1.xlsx",
+      "track": "问题1 单日 2025-01-01（mode=q1）",
+      "objective_yuan": 35126.84858928963
+    },
+    "result2": {
+      "file": "result2.xlsx",
+      "track": "Q2_可执行",
+      "days": 334,
+      "emg_rows": 4115,
+      "emg_kwh": 923073.974400002,
+      "fee_sum": 12245499.8696,
+      "cost_plan_file": 12245499.869439563
+    },
+    "result3": {
+      "file": "result3.xlsx",
+      "track": "Q3_可执行A3",
+      "days": 334,
+      "emg_rows": 4204,
+      "emg_kwh": 2076455.0976000037,
+      "fee_sum": 12220616.2256,
+      "cost_plan_file": 12220616.224442136
+    },
+    "result4-2": {
+      "file": "result4-2.xlsx",
+      "track": "Q4-2_可执行_价格不可知",
+      "days": 334,
+      "emg_rows": 4479,
+      "emg_kwh": 923026.1069000004,
+      "fee_sum": 12933982.4855,
+      "cost_plan_file": 12933982.48460536
+    },
+    "result4-3": {
+      "file": "result4-3.xlsx",
+      "track": "Q4-3_可执行A3_价格不可知",
+      "days": 334,
+      "emg_rows": 4607,
+      "emg_kwh": 2058121.6075000083,
+      "fee_sum": 12632224.241,
+      "cost_plan_file": 12632224.241351912
+    }
+  },
+  "模板输入哈希": {
+    "附件5/result1.xlsx": "28360E0974E7D6065394A8ABA4E14A86773AE0036CC7D3EA1B211B515B03D688",
+    "附件5/result2.xlsx": "1C26494CFC6D754E0BD9BFF7E13E1126A73D2D2DA6C5336EB251D89B9A1A1A47",
+    "附件5/result3.xlsx": "C59DA470CABD0BE23F602C95C8AA9D11EC224A0CDAC216B3E1F218E65D006BDC",
+    "附件5/result4-2.xlsx": "1C26494CFC6D754E0BD9BFF7E13E1126A73D2D2DA6C5336EB251D89B9A1A1A47",
+    "附件5/result4-3.xlsx": "C59DA470CABD0BE23F602C95C8AA9D11EC224A0CDAC216B3E1F218E65D006BDC"
+  },
+  "结果文件": {
+    "result1": {
+      "bytes": 8659,
+      "sha256": "041AAD3CAC689BA8137F2456C256CD2EAC0214EF6E7205984497B0CA5E41E4A3",
+      "content_sha256": "95E4433308EE79FCAABB35E96DD9F8DF75F81D28C4214DA645D1D0C667248F78"
+    },
+    "result2": {
+      "bytes": 430231,
+      "sha256": "0EA9C919657D0CF1FA4BA7970DEE7776EED9F9C5E98C8D2535F1B0BEC4327FC5",
+      "content_sha256": "B4F6675FCD7379F8FA7B3AE6E930D88D729D26E9DD9F4DC7368ECE234CBB2CC5"
+    },
+    "result3": {
+      "bytes": 799467,
+      "sha256": "4582CD3AFFE5C9F2C6EA8564FF0BB1C544DB846EFA17DFA819490E09707118D5",
+      "content_sha256": "B4DE00B55D8EEBC48377CB03AEB0D475C47FD086105B4BB65308F842E6ABE4E6"
+    },
+    "result4-2": {
+      "bytes": 439877,
+      "sha256": "E2A7A6F61F0D67786299225B50028592F68B387C9CF016D0182D22DFFAC72010",
+      "content_sha256": "B85132D312BF747150394DAB554C2FC3D03129C915553D6F9A6D44F6E90D0500"
+    },
+    "result4-3": {
+      "bytes": 808637,
+      "sha256": "DEB535D2170D91777CF1CFBAF40CAB8D4F331269A20A3DACFD96FDD8FEC18457",
+      "content_sha256": "028F7F4E2E0891D0E0299239EC95EFFB0A9A6D324A733492D523E4AE1300E620"
+    }
+  },
+  "数据来源": {
+    "正式运行_逐日_Q2_可执行.csv": {
+      "bytes": 130558,
+      "sha256": "121EEF56BFE8CE9F193D7E913696562D6AAA1A5547AFB620AB72EFAA9D8E1ECB"
+    },
+    "正式运行_逐槽_Q2_可执行.csv": {
+      "bytes": 4158964,
+      "sha256": "6D216535010898C3FCB14B4A72D85C14EAA9779494E9C5A6AA80E020EFF2A105"
+    },
+    "正式运行_逐日_Q3_可执行A3.csv": {
+      "bytes": 148826,
+      "sha256": "31A01F1FAD4BB2045A9CFA55D0A35198BCB0C95B96BDC1689456189AB3C31CF1"
+    },
+    "正式运行_逐槽_Q3_可执行A3.csv": {
+      "bytes": 4196037,
+      "sha256": "85AF4AEB5E60AC83A1430EB879E61FCD799461B1D3568BEA1D5ABCA26E7C503C"
+    },
+    "正式运行_逐日_Q4-2_可执行_价格不可知.csv": {
+      "bytes": 142054,
+      "sha256": "67A8C932D214E2C1EFC9A2AF2F5BE16A383BD90E66DBADCC3DD27F0DC7A2717E"
+    },
+    "正式运行_逐槽_Q4-2_可执行_价格不可知.csv": {
+      "bytes": 4181580,
+      "sha256": "9E4E1BA49850F94EF7785AEAA8966B2314DFAB8ED07711AC22CA396F6B50E63F"
+    },
+    "正式运行_逐日_Q4-3_可执行A3_价格不可知.csv": {
+      "bytes": 157351,
+      "sha256": "1379581F7B7448F9199F861493AA06444DAA367FF087A0D235B98EEA5B881754"
+    },
+    "正式运行_逐槽_Q4-3_可执行A3_价格不可知.csv": {
+      "bytes": 4217599,
+      "sha256": "0B8643A9FFEC7D8459339D751C9681C934D4A40638B2B3FAF84F4996390F67B7"
+    }
+  },
+  "指纹说明": "sha256 为文件字节哈希，实测跨次运行不稳定（openpyxl 写出字节不可复现）；content_sha256 为全部非空单元格的内容级指纹，跨次运行稳定，判定「结果数值是否被修改」应以 content_sha256 为准。",
+  "口径": {
+    "计划购电量": "原始 0:00 日前计划 b_t（144 槽；末两列=全天购电量/全天购电费）",
+    "调整购电量": "相对原始 0:00 计划的调整后购电量 a_t（问题3/4-3 直接调整规则）",
+    "全天购电费": "Σ(当日各槽结算价 × 购电量)；问题2/3 用附件1 电价，问题4 用附件4 当日实际电价",
+    "充放电量": "每日 6 个真实时钟区间（题目表2）：0:00-4:00 = 前一交易日第144槽 + 本日槽1-23；4:00-8:00/8:00-12:00/12:00-16:00/16:00-20:00/20:00-24:00 = 本日槽 24-47/48-71/72-95/96-119/120-143；0:00/24:00 为字面锚定储电量，六段 SOC 链自 0:00 精确闭合到 24:00（2026-09-11 订正）",
+    "紧急购电量": "仅列出现紧急购电的日期，连续时段合并为区间"
+  }
+}
